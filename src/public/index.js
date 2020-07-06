@@ -1,4 +1,4 @@
-function init() {
+(function () {
   let mouse = {
     click: false,
     move: false,
@@ -63,6 +63,4 @@ function init() {
   }
 
   mainLoop();
-}
-
-document.addEventListener("DOMContentLoaded", init);
+})();
